@@ -63,6 +63,10 @@ export class Document {
     element.querySelector('.dixieme').textContent = dixieme.toString();
   }
 
+  /**
+   * Ajoute l'affichage d'un Chronomètre dans le DOM au niveau
+   * de l'élément HTML .container.
+   */
   ajouterChrono() {
     if (Document.#chronoInitialise)
       alert("Un seul chronomètre autorisé à l'étape 1.")

@@ -78,6 +78,16 @@ button {
     color: #fff;
 }
 
+#ajouter:disabled {
+    background-color: #d7dfe5;
+    border: 2px solid #1872cc;
+    font-size: 1.2em;
+    color: #1872cc;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+
 .Start {
     background-color: #01CC99;
     border: 1px solid #01CC99;
